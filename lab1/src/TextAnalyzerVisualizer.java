@@ -11,6 +11,7 @@ import java.util.*;
 import java.util.List;
 
 
+        // 读取文本文件
 public class TextAnalyzerVisualizer extends JFrame {
     private static HashMap<String, HashMap<String, Integer>> graph = new HashMap<>();
     private JPanel mainPanel, topPanel, centerPanel;
