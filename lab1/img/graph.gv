@@ -1,0 +1,46 @@
+digraph G{
+    label="Length of shortest path from  'happy' to 'the':1";
+    node [shape=plaintext];
+    blank [label=" "];
+    node [shape=oval];
+	happy [style=filled, fillcolor=green]	about	feel	when	around	happier	too	happiness	contagious	and	me	because	truly	together	think	everyone	more	makes	i	is	being	am	becomes	the [style=filled, fillcolor=green]	what
+	happy->the[label="1", color="blue"];
+	happy->everyone[label=1];
+	happy->too[label=1];
+	happy->and[label=1];
+	happy->is[label=1];
+	happy->because[label=1];
+	happy->together[label=1];
+	about->being[label=1];
+	feel->and[label=1];
+	when->everyone[label=1];
+	when->i[label=1];
+	around->me[label=1];
+	happier->i[label=1];
+	too->the[label=1];
+	happiness->is[label=1];
+	contagious->when[label=1];
+	and->happiness[label=1];
+	and->when[label=1];
+	me->happy[label=1];
+	me->becomes[label=1];
+	because->being[label=1];
+	truly->contagious[label=1];
+	think->about[label=1];
+	everyone->is[label=1];
+	everyone->around[label=1];
+	more->i[label=1];
+	makes->me[label=1];
+	i->think[label=1];
+	i->feel[label=1];
+	i->am[label=2];
+	is->what[label=1];
+	is->happy[label=1];
+	is->truly[label=1];
+	being->happy[label=2];
+	am->happy[label=2];
+	becomes->happy[label=1];
+	the->happier[label=1];
+	the->more[label=1];
+	what->makes[label=1];
+}
